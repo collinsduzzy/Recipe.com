@@ -23,6 +23,17 @@
            .slider .indicators .indicator-item.active {
                background-color: #e65100;
            }
+
+              /* label underline focus color */
+            .input-field input:focus, textarea:focus {
+                border-bottom: 1px solid #e65100 !important;
+                box-shadow: 0 1px 0 0 #e65100 !important;
+            }
+
+            /* label focus color */
+            .input-field:hover label {
+                color: #e65100 !important;
+            }
         </style>
     </head>
     <body>
@@ -665,8 +676,37 @@
                     </div>
                 </div>
             </section>
+            <!--Contact-->
+            <section class="section container">
+                <div class="row">
+                    <div class="col s12 l5">
+                        <h3 class="orange-text text-darken-4">Contact Us Today!</h3>
+                        <p> The key to more success is to have a lot of pillows. We the best.</p>
+                        <button class="btn btn-large orange darken-4">CALL US NOW <i class="material-icons right">phone</i></button>
+                    </div>
+                    <div class="col s12 l6 push-l1">
+                        <form action="">
+                            <div class="col s12 input-field">
+                                <label for="your_name">Your Name</label>
+                                <input type="text" name="your_name" id="your_name">
+                            </div>
+                            <div class="col s12 input-field">
+                                <label for="email">Enter Your Email</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="col s12 input-field">
+                                <label for="your_message">Your Message</label>
+                                <textarea name="your_message" id="your_message" class="materialize-textarea"></textarea>
+                            </div>
+                            <div class="center">
+                                <input type="submit" value="Submit" class="btn btn-large orange darken-4">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
         </main>
-        <!--Contact-->
+        
         <!--Footer-->
         <footer class="page-footer black">
             <div class="container">
